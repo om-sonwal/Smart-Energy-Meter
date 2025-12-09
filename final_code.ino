@@ -18,7 +18,7 @@ const float vCalibration = 800.0;
 const float currCalibration = 0.15;
 
 // WiFi credentials
-const char auth[] = "dEfSlbUgyXezKxkJfIjtqE-9YdnCTce1"; //your auth code in blynk mobile app one time only
+const char auth[] = "dEfSlbUgyXezKxkJfIjtqE-9YdnCTce1"; //Your auth code in blynk mobile app one time only
 const char ssid[] = "Narayan"; // name of the wifi
 const char pass[] = "12345678"; // password of wifi
 
@@ -117,4 +117,5 @@ void loop() {
   Blynk.run();
   timer.run();
 }
+
 
